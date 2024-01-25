@@ -1,0 +1,732 @@
+
+
+/* ================  =========  Dark MODE SECTION  STARTS HERE ============================== */
+
+body.dark 
+{
+    transition: 0.25s;
+    background: #000;
+}
+body.dark .hed-logo i{
+    color: #ec4c4c;
+}
+body.dark .hed-logo p {
+    color: #f4f4f4;
+}
+body.dark header i,
+body.dark header ul li a {
+    color: #f4f4f4;
+}
+body.dark .Nav-side li,
+body.dark .menu-bar ul li a:hover:before{
+    border-color: #f4f4f4;
+}
+body.dark .Togle,
+body.dark .toogle
+{
+    background: #121211;
+    box-shadow: inset 0 0 2px rgba(255, 255, 255, 0.7);
+}
+body.dark .Togle span,
+body.dark .toogle span
+{
+    background: #f4f4f4;
+    left: 25px;
+}
+body.dark .Nav-side p,
+body.dark h1,
+body.dark h2,
+body.dark h3,
+body.dark small{
+    color: #f4f4f4;
+}
+body.dark .car-prof,
+body.dark .News-sec,
+body.dark .spareparts-shop .spar-parts{
+    box-shadow: 0 0 2px rgba(255, 255, 255, 0.7);
+}
+body.dark .Nav-side .nav-serch input,
+body.dark header .hed-search #serch-inp,
+body.dark .car-prof .Car-info{
+    background: #121211;
+    box-shadow: 0 0 2px rgba(255, 255, 255, 0.7);
+    color: #f4f4f4;
+}
+
+body.dark .spareparts-shop .spar-parts p,
+body.dark .spareparts-shop .spar-parts i,
+body.dark .News-sec .News-txt p,
+body.dark .top-sec p{
+    color: #f36868;
+}
+body.dark .spareparts-shop .spar-parts .det-btn{
+    background: #f4f4f4;
+}
+body.dark .spareparts-shop .spar-parts button{
+    background: #ec4c4c;
+}
+body.dark .head-cont,
+body.dark  .Nav-side,
+body.dark .News-sec,
+body.dark .spareparts-shop .spar-parts{
+    background: #121211;
+    box-shadow: 0 0 2px rgba(255, 255, 255, 0.7);
+}
+body.dark .foter-container{
+    background: #121211;
+}
+/* ================  =========  Dark MODE SECTION  ENDS HERE============================== */
+
+
+
+/* ================  =========  MEDIA QUARY SECTION  STARTS HERE============================== */
+.container{
+    padding-left: 0.1rem;
+    padding-right: 0.1rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: 1px solid #ec4c4c;
+    border-right: 1px solid #ec4c4c;
+    width: 100%;
+}
+/* s */
+@media (min-width: 275px) {
+    .container,
+    .head-cont  {
+      max-width: 275px;
+    }
+  }
+
+/* m */
+  @media (min-width: 375px) {
+    .container,
+    .head-cont  {
+      max-width: 375px;
+    }
+  }
+
+/* xs */
+@media (min-width: 475px) {
+  .container,
+  .head-cont  {
+    max-width: 475px;
+  }
+}
+
+/* xs */
+@media (min-width: 575px) {
+  .container,
+  .head-cont  {
+    max-width: 575px;
+  }
+}
+
+/* sm */
+@media (min-width: 640px) {
+  .container,
+  .head-cont  {
+    max-width: 640px;
+  }
+}
+
+/* md */
+@media (min-width: 768px) {
+  .container,
+  .head-cont  {
+    max-width: 768px;
+  }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+  .container,
+  .head-cont  {
+    max-width: 1024px;
+  }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+  .container,
+  .head-cont {
+    max-width: 1280px;
+  }
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+  .container,
+  .head-cont  {
+    max-width: 1536px;
+  }
+}
+
+/* ================  =========  MEDIA QUARY SECTION  ENDS HERE============================== */
+
+@media (max-width: 1280px){
+    .about-img,
+    .about-txt,
+    .content .right-con,
+    .content .left-con{
+        width: 50%;
+    }
+    .News-side{
+        width: 100%;
+        gap: 10px;
+    }
+    .News-side .News-sec{
+        width: 240px;
+        height: 425px;
+    }
+    .News-side .News-sec .News-btn button{
+        font-size: 12px;
+        padding: 8px 14px;
+    }
+    .News-side .News-sec .News-txt small{
+        font-size: 12px;
+    }
+}
+
+/* ================================= 1024 =====================  1024  ====================== */
+@media (max-width: 1024px){
+    header{
+        height: 40px; 
+    }
+
+    header .hed-search .ri-search-line,
+    header .hed-search input,
+    header .hed-search .toogle,
+    .menu-bar{
+        display: none;
+    }
+    header .hed-search .ri-menu-line{
+        display: block;
+        padding: 5px;
+        top: -20px;
+    }
+    header{
+        justify-content: space-between;
+    }
+
+    .about-img,
+    .about .about-txt,
+    .content .right-con,
+    .content .left-con{
+        width: 100%;
+    }
+    .about .about-txt{
+        align-items: center;
+    }
+    .about .about-txt h3,
+    .content .right-con h1{
+       font-size: 40px;
+    }
+
+    .bott-sec .car-prof{
+        width: 360px;
+        height: 180px;
+    }
+    .section-2 .bott-sec .car-prof button{
+        bottom: 2px;
+        font-size: 8px;
+        padding: 6px 10px;
+    }
+   .bott-sec .car-prof .Car-info p{
+        font-size: 10px;
+    }
+    .bott-sec .car-prof .Car-info i{
+        padding: 1px;
+    }
+    .News-side .News-sec{
+        width: 280px;
+        height: 405px;
+    }
+}
+/* ================================= 768 =====================  768  ====================== */
+@media (max-width: 768px){
+    header{
+        height: 40px; 
+    }
+    .bott-sec {
+        padding: 0;
+    }
+    .bott-sec .car-prof{
+        width: 300px;
+        height: 160px;
+    }
+    .section-2 .bott-sec .car-prof button{
+        bottom: 2px;
+        font-size: 7px;
+        padding: 6px 10px;
+    }
+   .bott-sec .car-prof .Car-info p{
+        font-size: 8px;
+    }
+    .about .about-txt h3{
+       font-size: 30px;
+    }
+    .spareparts-shop {
+        gap: 10px;
+    }
+    .section-3 .spareparts-shop .spar-parts{
+        width: 240px;
+        height: 280px;
+    }
+    .spareparts-shop .spar-parts h3{
+        font-size: 18px;
+    }
+    .spareparts-shop .spar-parts p{
+        font-size: 12px;
+    }
+    .spareparts-shop .spar-parts i{
+        font-size: 14px;
+    }
+    .spareparts-shop .spar-parts button{
+        padding: 8px 16px;
+    }
+
+   .container small{
+        font-size: 14px;
+    }
+}
+
+/* ================================= 640 =====================640====================== */
+@media (max-width: 640px){
+    header{
+        height: 40px;
+    }
+    .bott-sec .car-prof{
+        width: 270px;
+        height: 140px;
+    }
+    .section-2 .bott-sec .car-prof button{
+        bottom: 2px;
+        font-size: 7px;
+        padding: 6px 10px;
+    }
+    .bott-sec .car-prof .Car-info i{
+        padding: 2px;
+        font-size: 10px;
+    }
+   .bott-sec .car-prof .Car-info p{
+        font-size: 7px;
+    }
+    .top-sec small {
+        font-size: 12px;
+    }
+    .News-side{
+        width: 99%;
+        gap: 10px;
+    }
+    .News-side .News-sec{
+        width: 270px;
+    }
+    .News-side .News-sec .News-txt h2{
+        font-size: 18px;
+    }
+    .News-side .News-sec .News-txt small,
+    .about .about-txt small{
+        font-size: 12px;
+    }
+    .footer .footer-part{
+        gap: 0;
+    }
+    .fot-bott small,
+    .footer .footer-part li,
+    .footer .footer-part li a{
+        font-size: 10px;
+        padding: 5px 0;
+    }
+    .foter-icons i{
+        font-size: 14px;
+    }
+    .foter-container {
+        padding: 0;
+       }
+}
+
+/* ================================= 575 =====================575====================== */
+@media (max-width: 575px){
+    header{
+        height: 37.5px;
+    }
+    .content h1{
+        font-size: 40px;
+        padding: 0;
+    }
+    .content small{
+        font-size: 12px;
+    }
+    .container .section-2 .bott-sec{
+        gap: 5px;
+    }
+    .bott-sec .car-prof{
+        width: 220px;
+        height: 140px;
+    }
+    .bott-sec .car-prof img{
+        width: 100%;
+        height: 100%;
+    }
+    .bott-sec .car-prof .Car-info{
+        width: 60%;
+    }
+    .about .about-txt h3{
+        font-size: 25px;
+    }
+    .top-sec {
+        padding: 5px;
+    }
+    .top-sec h3,
+    .about .about-txt p{
+        font-size: 18px;
+    }
+   
+    .top-sec p{
+        font-size: 14px;
+    }
+    .top-sec small{
+        font-size: 10px;
+    }
+    .spareparts-shop {
+        gap: 10px;
+        width: 100%;
+    }
+    .section-3 .spareparts-shop .spar-parts{
+        width: 210px;
+        height: 250px;
+    }
+    .spar-parts .spare-deta{
+        padding: 5px;
+    }
+    .spar-parts .spare-btns{
+        padding: 5px;
+    }
+    .top-sec small{
+        font-size: 12px;
+    }
+    .News-side{
+        width: 100%;
+        gap: 10px;
+    }
+    .News-side .News-sec{
+        width: 220px;
+        height: 360px;
+    }
+    .News-side .News-sec .News-btn button{
+        font-size: 12px;
+        padding: 8px 14px;
+    }
+    .News-side .News-sec .News-txt small,
+    .about .about-txt small{
+        font-size: 10px;
+    }
+   .footer{
+    padding: 0;
+   }
+   .footer  .footer-logo img{
+    width: 170px;
+    height: 100px;
+   }
+   .footer  .footer-logo h1{
+    font-size: 22px;
+   }
+   .footer  .footer-logo p{
+    font-size: 16px;
+   }
+   .footer  .footer-logo .foter-icons i{
+    font-size: 12px;
+    padding: 8px;
+   }
+}
+
+/* ================================= 475 =====================475====================== */
+@media (max-width: 475px){
+    header{
+        height: 35px;
+    }
+    header .hed-logo p{
+        font-size: 18px;
+    }
+    header .hed-search .ri-menu-line{
+        font-size: 22px;
+    }
+    .Nav-side input{
+        width: 100%;
+        height: 30px;
+        border-radius: 25px;
+        font-size: 12px;
+    }
+    .Nav-side .nav-serch .ri-search-2-line{
+        right: 0;
+        top: -8px;
+    }
+    .Nav-side ul li{
+        padding: 5px;
+    }
+    .Nav-side .theme p,
+    .Nav-side ul li a{
+        font-size: 12px;
+    }
+    .Nav-side .theme{
+        padding: 5px;
+    }
+    .content h1{
+        font-size: 33px;
+    }
+    .content button{
+        font-size: 12px;
+        font-weight: 400;
+        padding: 10px 14px;
+    }
+    .bott-sec .car-prof{
+        width: 180px;
+        height: 120px;
+    }
+    .bott-sec .car-prof .Car-info i{
+        padding: 1.5px;
+        font-size: 8px;
+    }
+   .bott-sec .car-prof .Car-info p{
+        font-size: 6px;
+    }
+    .bott-sec .car-prof .Car-info{
+        width: 65%;
+    }
+    .section-2 .bott-sec .car-prof button{
+        padding: 5px 8px;
+        font-size: 7px;
+    }
+    .about .about-txt h3{
+        font-size: 20px;
+    }
+    .about .about-txt button{
+        font-size: 12px;
+        font-weight: 400;
+        padding: 10px 14px;
+    }
+    .spareparts-shop {
+        gap: 10px 5px;
+        width: 100%;
+    }
+    .section-3 .spareparts-shop .spar-parts{
+        width: 170px;
+        height: 200px;
+    }
+    .spareparts-shop .spar-parts .spare-img{
+        width: 100%;
+        height: 40%;
+    }
+    .spar-parts .spare-btns .det-btn,
+    .spar-parts .spare-btns button{
+        padding: 6px 10px;
+        font-size: 10px;
+    }
+    .News-side{
+        width: 100%;
+        gap: 10px 5px;
+    }
+    .News-side .News-sec{
+        width: 180px;
+        height: 320px;
+        border-radius: 5px;
+    }
+    .News-side .News-sec .News-img{
+        height: 35%;
+    }
+    .News-side .News-sec .News-btn button{
+        font-size: 10px;
+        padding: 8px 12px;
+    }
+    .News-side .News-sec .News-txt h2{
+        font-size: 14px;
+    }
+    .News-side .News-sec .News-txt p,
+    .News-side .News-sec .News-txt small{
+        font-size: 10px;
+    }
+
+   .footer  .footer-logo img{
+    width: 120px;
+    height: 50px;
+   }
+   .footer  .footer-logo h1{
+    font-size: 18px;
+   }
+   .footer  .footer-logo p{
+    font-size: 12px;
+   }
+   .footer  .footer-logo .foter-icons{
+    padding: 0;
+   }
+   .footer  .footer-logo .foter-icons i{
+    font-size: 10px;
+    padding: 6px;
+   }
+   .footer .footer-part h2{
+    font-size: 14px;
+   }
+   .footer .footer-part li,
+   .footer .footer-part li a{
+    font-size: 8px;
+    padding: 3px 0;
+   }
+   .fot-bott small{
+    font-size: 7px;
+    padding: 2px 0;
+   }
+}
+
+/* ================================= 375 =====================375====================== */
+@media (max-width: 375px){
+    header{
+        height: 35px;
+    }
+    header .hed-logo p{
+        font-size: 16px;
+    }
+    header .hed-search .ri-menu-line{
+        font-size: 20px;
+    }
+    header .Nav-side {
+        width: 160px;
+    }
+    .content h1{
+        font-size: 25px;
+    }
+    .content button{
+        font-size: 10px;
+        padding: 8px 12px;
+    }
+    .content .right-con h5{
+        font-size: 10px;
+    }
+    .content .right-con p{
+        font-size: 10px;
+    }
+    .top-sec h3{
+        font-size: 16px;
+    }
+    .top-sec small{
+        font-size: 10px;
+    }
+    .about .about-txt h3{
+        font-size: 16px;
+    }
+    .bott-sec .car-prof{
+        width: 250px;
+        height: 140px;
+    }
+    .section-2 .bott-sec .car-prof button{
+        bottom: 2px;
+        font-size: 7px;
+        padding: 6px 10px;
+    }
+    .bott-sec .car-prof .Car-info{
+        width: 53%;
+    }
+    .bott-sec .car-prof .Car-info i{
+        padding: 2px;
+        font-size: 10px;
+    }
+   .bott-sec .car-prof .Car-info p{
+        font-size: 7px;
+    }
+    .about .about-txt button{
+        font-size: 10px;
+        padding: 8px 12px;
+    }
+    .section-3 .spareparts-shop .spar-parts{
+        width: 120px;
+        height: 150px;
+        border-radius: 5px;
+    }
+    .spareparts-shop .spar-parts .spare-img{
+        width: 100%;
+        height: 35%;
+    }
+    .spareparts-shop .spar-parts h3{
+        font-size: 14px;
+    }
+    .spareparts-shop .spar-parts p{
+        font-size: 10px;
+    }
+    .spareparts-shop .spar-parts .ratig{
+       gap: 0;
+    }
+    .spareparts-shop .spar-parts .spare-deta .ratig i{
+        font-size: 12px;
+    }
+    .spar-parts .spare-btns .det-btn,
+    .spar-parts .spare-btns button{
+        padding: 4px 5px;
+        font-size: 7px;
+    }
+    .News-side{
+        width: 100%;
+        gap: 10px 5px;
+    }
+    .News-side .News-sec{
+        width: 130px;
+        height: 310px;
+        border-radius: 5px;
+    }
+    .News-side .News-sec .News-img{
+        height: 30%;
+    }
+    .News-side .News-sec .News-btn button{
+        font-size: 8px;
+        padding: 6px 10px;
+    }
+    .News-side .News-sec .News-txt h2{
+        font-size: 12px;
+    }
+
+    .footer  .footer-logo img{
+        width: 190px;
+        height: 80px;
+       }
+       .footer .footer-part{
+        width: 70px;
+       }
+       .fot-bott small{
+        font-size: 6px;
+        padding: 2px 0;
+       }
+}
+
+/* ================================= 375 =====================375====================== */
+@media (max-width: 270px){
+    .content button{
+        font-size: 8px;
+        padding: 6px 10px;
+    }
+    .section-3 .spareparts-shop {
+        padding: 10px 2px;
+    }
+    .section-3 .spareparts-shop .spar-parts{
+        width: 120px;
+        height: 150px;
+        border-radius: 5px;
+    }
+
+    .News-side .News-sec{
+        width: 120px;
+        height: 325px;
+        border-radius: 5px;
+    }
+    .News-side .News-sec .News-img{
+        height: 25%;
+    }
+    .News-side .News-sec .News-btn button{
+        font-size: 8px;
+        padding: 6px 10px;
+    }
+    .News-side .News-sec .News-txt h2{
+        font-size: 12px;
+    } 
+     .bott-sec .car-prof .Car-info{
+        width: 55%;
+    }
+
+}
